@@ -10,18 +10,16 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-
-            <a class="navbar-brand ms-5" href="#"><img src="images/logo.png" id="logo"></a>
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" id="logo"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
-
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-5 d-flex justify-content-end">
+                    <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Vêtements Femmes
                         </a>
@@ -30,7 +28,7 @@
                             <li><a class="dropdown-item" href="#">Pantalons</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Vêtements Hommes
                         </a>
@@ -39,7 +37,7 @@
                             <li><a class="dropdown-item" href="#">Pantalons</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Accessoires
                         </a>
@@ -48,25 +46,39 @@
                             <li><a class="dropdown-item" href="#">Casquettes</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link">A propos</a>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">A propos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-3">Contact</a>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
 
-                <div class="d-flex align-items-center">
-                    <a href="#" class="nav-link me-5">
-                        <img src="images/panier.png" alt="icone panier" id="panier">
-                    </a>
-
-                </div>
+                <a href="#" class="nav-link">
+                    <img src="images/panier.png" alt="icone panier" id="panier">
+                </a>
             </div>
         </div>
     </nav>
 </header>
-<h1>Hello</h1>
+<main>
+    <div class="container  px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/banniere1.png" class="d-block mx-lg-auto img-fluid" alt="banniere" id="banniere">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold  lh-1 mb-3">Restez à la mode avec notre boutique fashion</h1>
+                <p class="lead">Exprimez votre personnalité avec nos pièces uniques, conçues pour chaque style</p>
+                <div class="mx-auto">
+                    <button type="button" class="btn btn-primary btn-lg mx-auto">Découvrez notre boutique</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
 <div id="catalogue" class="row"></div>
 
 
