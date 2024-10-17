@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "nom": "T-shirt Bleu marine",
+    "nom": "T-shirt Bleu ",
     "prix": 20,
     "description": "Un t-shirt confortable en coton.",
     "quantite": 10,
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "nom": "Sweat à capuche Gris",
+    "nom": "Sweat  Gris",
     "prix": 40,
     "description": "Un Sweat à capuche confortable en coton.",
     "quantite": 10,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "nom": "Sweat à capuche Noir",
+    "nom": "Sweat  Noir",
     "prix": 40,
     "description": "Un Sweat à capuche confortable en coton.",
     "quantite": 10,
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "nom": "Sweat à capuche Blanc",
+    "nom": "Sweat  Blanc",
     "prix": 40,
     "description": "Un Sweat à capuche confortable en coton.",
     "quantite": 10,
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "nom": "Veste Bleu marine",
+    "nom": "Veste Bleu ",
     "prix": 100,
     "description": "Une Veste Bleu marine confortable en coton.",
     "quantite": 10,
@@ -113,7 +113,7 @@
   },
   {
     "id": 15,
-    "nom": "Casquette Bleu marine",
+    "nom": "Casquette Bleu",
     "prix": 30,
     "description": "Une Casquette bleu marine en coton.",
     "quantite": 10,
