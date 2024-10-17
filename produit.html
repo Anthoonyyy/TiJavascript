@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Détails du Produit</title>
+    <link rel="icon" href="images/cintre.png" />
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,17 +16,22 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container d-flex justify-content-between">
-            <a class="navbar-brand" href="./"><img src="images/logo.png" id="logo"></a>
+        <div class="container">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="./">
+                <img src="images/logo.png" id="logo" alt="logo">
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 ms-5 d-flex justify-content-end">
-                    <li class="nav-item dropdown me-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Vêtements Femmes
                         </a>
                         <ul class="dropdown-menu">
@@ -33,8 +39,8 @@
                             <li><a class="dropdown-item" href="#">Pantalons</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown me-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Vêtements Hommes
                         </a>
                         <ul class="dropdown-menu">
@@ -42,8 +48,8 @@
                             <li><a class="dropdown-item" href="#">Pantalons</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown me-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Accessoires
                         </a>
                         <ul class="dropdown-menu">
@@ -51,28 +57,42 @@
                             <li><a class="dropdown-item" href="#">Casquettes</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link" href="#">A propos</a>
-                    </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
                 </ul>
 
-                <a href="#" class="nav-link">
+                <!-- Panier -->
+                <button class="nav-link border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#panierOffcanvas">
                     <img src="images/panier.png" alt="icone panier" id="panier">
-                </a>
+                    <span id="cart-count" class="badge bg-secondary">0</span>
+                </button>
             </div>
         </div>
     </nav>
 </header>
-<div class="container">
-    <div id="produit-detail" class="row justify-content-center text-center mt-5">
+<div class="container mt-5" id="produit-detail">
+</div>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="panierOffcanvas">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Votre Panier</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div id="cart-items" class="mb-3">
 
+        </div>
+        <div class="cart-summary">
+            <div class="d-flex justify-content-between">
+                <strong>Total:</strong>
+                <span><span id="total-price">0</span>€</span>
+            </div>
+            <button class="btn btn-secondary w-100 mt-3" onclick="passerCommande()">
+                Passer la commande
+            </button>
+        </div>
     </div>
 </div>
-
 <script src="detailsProduits.js"></script>
+<script src="index.js"></script>
+<script src="panier.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
