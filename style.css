@@ -138,3 +138,8 @@ body{
     font-style: normal;
     font-size: 35px;
 }
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    
+}
