@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "nom": "T-shirt Blanc",
+    "prix": 20,
+    "description": "Un t-shirt confortable en coton.",
+    "quantite": 10,
+    "image": "images/tshirt_blanc.png"
+  },
+  {
+    "id": 2,
+    "nom": "T-shirt Noir",
+    "prix": 20,
+    "description": "Un t-shirt confortable en coton.",
+    "quantite": 10,
+    "image": "images/tshirt_noir.png"
+  },
+  {
+    "id": 3,
+    "nom": "T-shirt Bleu marine",
+    "prix": 20,
+    "description": "Un t-shirt confortable en coton.",
+    "quantite": 10,
+    "image": "images/tshirt_bleu.png"
+  },
+  {
+    "id": 4,
+    "nom": "Sweat à capuche Gris",
+    "prix": 40,
+    "description": "Un Sweat à capuche confortable en coton.",
+    "quantite": 10,
+    "image": "images/sweat_gris.png"
+  },
+  {
+    "id": 5,
+    "nom": "Sweat à capuche Noir",
+    "prix": 40,
+    "description": "Un Sweat à capuche confortable en coton.",
+    "quantite": 10,
+    "image": "images/sweat_noir.png"
+  },
+  {
+    "id": 6,
+    "nom": "Sweat à capuche Blanc",
+    "prix": 40,
+    "description": "Un Sweat à capuche confortable en coton.",
+    "quantite": 10,
+    "image": "images/sweat_blanc.png"
+  },
+  {
+    "id": 7,
+    "nom": "Jeans Bleu",
+    "prix": 60,
+    "description": "Un Jeans confortable en coton.",
+    "quantite": 10,
+    "image": "images/jeans_bleu.jpg"
+  },
+  {
+    "id": 8,
+    "nom": "Jeans Noir",
+    "prix": 60,
+    "description": "Un Jeans confortable en coton.",
+    "quantite": 10,
+    "image": "images/jeans_noir.jpg"
+  },
+  {
+    "id": 9,
+    "nom": "Jeans Gris",
+    "prix": 60,
+    "description": "Un Jeans confortable en coton.",
+    "quantite": 10,
+    "image": "images/jeans_gris.jpg"
+  },
+  {
+    "id": 10,
+    "nom": "Veste Noir",
+    "prix": 100,
+    "description": "Une Veste noire confortable en coton.",
+    "quantite": 10,
+    "image": "images/veste_noir.jpeg"
+  },
+  {
+    "id": 11,
+    "nom": "Veste Bleu marine",
+    "prix": 100,
+    "description": "Une Veste Bleu marine confortable en coton.",
+    "quantite": 10,
+    "image": "images/veste_bleu.jpeg"
+  },
+  {
+    "id": 12,
+    "nom": "Veste Beige",
+    "prix": 100,
+    "description": "Une Veste beige confortable en coton.",
+    "quantite": 10,
+    "image": "images/veste_beige.jpeg"
+  },
+  {
+    "id": 13,
+    "nom": "Casquette Noir",
+    "prix": 30,
+    "description": "Une Casquette noire en coton.",
+    "quantite": 10,
+    "image": "images/casquette_noir.jpeg"
+  },
+  {
+    "id": 14,
+    "nom": "Casquette Beige",
+    "prix": 30,
+    "description": "Une Casquette beige en coton.",
+    "quantite": 10,
+    "image": "images/casquette_beige.jpeg"
+  },
+  {
+    "id": 15,
+    "nom": "Casquette Bleu marine",
+    "prix": 30,
+    "description": "Une Casquette bleu marine en coton.",
+    "quantite": 10,
+    "image": "images/casquette_bleu.jpeg"
+  }
+
+]
