@@ -5,7 +5,7 @@
     "prix": 20,
     "description": "Un t-shirt confortable en coton.",
     "quantite": 10,
-    "image": "images/tshirt_blanc.png"
+    "image": "images/tshirt_blanc.jpeg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "prix": 20,
     "description": "Un t-shirt confortable en coton.",
     "quantite": 10,
-    "image": "images/tshirt_noir.png"
+    "image": "images/tshirt_noir.jpeg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "prix": 20,
     "description": "Un t-shirt confortable en coton.",
     "quantite": 10,
-    "image": "images/tshirt_bleu.png"
+    "image": "images/tshirt_bleu.jpeg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "prix": 40,
     "description": "Un Sweat à capuche confortable en coton.",
     "quantite": 10,
-    "image": "images/sweat_gris.png"
+    "image": "images/sweat_gris.jpeg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "prix": 40,
     "description": "Un Sweat à capuche confortable en coton.",
     "quantite": 10,
-    "image": "images/sweat_noir.png"
+    "image": "images/sweat_noir.jpeg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "prix": 40,
     "description": "Un Sweat à capuche confortable en coton.",
     "quantite": 10,
-    "image": "images/sweat_blanc.png"
+    "image": "images/sweat_blanc.jpeg"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "prix": 60,
     "description": "Un Jeans confortable en coton.",
     "quantite": 10,
-    "image": "images/jeans_bleu.jpg"
+    "image": "images/jeans_bleu.jpeg"
   },
   {
     "id": 8,
