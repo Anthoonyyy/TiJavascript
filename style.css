@@ -10,16 +10,105 @@ body{
     width: 50%;
     height: 50%;
 }
-#panier{
-    width: 35px;
-    height: 35px;
+
+.navbar {
+    padding: 1rem 0;
 }
+
+.navbar-nav .nav-item {
+    margin: 0 0.5rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+}
+@media (max-width: 991px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-bottom: 1rem;
+    }
+
+    .nav-link.border-0.bg-transparent {
+        margin: 0 auto;
+    }
+}
+
 #banniere{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 
 }
+#titreBanniere{
+    font-family: "Montserrat", sans-serif;
+}
+#paraBanniere{
+    font-family: "Poppins", sans-serif;
+}
+/*Bouton banniere*/
+.cta {
+    position: relative;
 
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #A6A6A6;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: black;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #A6A6A6;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+/*Fin bouton banniere*/
 #photoProduits{
     width: 20em;
     height: 20em;
@@ -62,7 +151,7 @@ body{
 
 /*Bouton ajoutez au panier*/
 .cartBtn {
-    width: 180px;
+    width: 150px;
     height: 40px;
     border: none;
     border-radius: 15px;
@@ -142,4 +231,118 @@ body{
 .card{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 
+}
+
+#panier {
+    width: 35px;
+    height: 35px;
+}
+
+.nav-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+
+.nav-link.border-0.bg-transparent {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.75rem;
+    transform: translate(25%, -25%);
+    padding: 0.25rem 0.5rem;
+    min-width: 1.5rem;
+    text-align: center;
+}
+
+
+.panier-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-summary {
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    padding: 15px;
+    border-top: 2px solid #eee;
+    margin-top: auto;
+}
+
+#cart-items {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.offcanvas {
+    max-width: 95vw;
+    width: 400px;
+}
+
+.btn-danger.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/*Section features*/
+.single-features{
+    text-align: center;
+    border-right: 1px solid #eeeeee;
+}
+.single-features .f-icon {
+    margin-bottom: 20px;
+}
+.features-inner {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px 0;
+}
+/*Fin section features*/
+
+.descriptionProduits{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.quantiteDispo{
+    font-size:15px;
+}
+
+.img-container {
+    width: 633px;
+    height: 633px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.redirectForm{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa !important;
+    color: black !important;
 }
