@@ -3,7 +3,7 @@
     "id": 1,
     "nom": "T-shirt Blanc",
     "prix": 20,
-    "description": "Un t-shirt confortable en coton.",
+    "description": "Découvrez notre t-shirt blanc en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce t-shirt offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur blanche intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/tshirt_blanc.jpeg"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "nom": "T-shirt Noir",
     "prix": 20,
-    "description": "Un t-shirt confortable en coton.",
+    "description": "Découvrez notre t-shirt noir en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce t-shirt offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur noir intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/tshirt_noir.jpeg"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "nom": "T-shirt Bleu ",
     "prix": 20,
-    "description": "Un t-shirt confortable en coton.",
+    "description": "Découvrez notre t-shirt bleu marine en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce t-shirt offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur bleu intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/tshirt_bleu.jpeg"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "nom": "Sweat  Gris",
     "prix": 40,
-    "description": "Un Sweat à capuche confortable en coton.",
+    "description": "Découvrez notre sweat gris en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce sweat offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur grise intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/sweat_gris.jpeg"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "nom": "Sweat  Noir",
     "prix": 40,
-    "description": "Un Sweat à capuche confortable en coton.",
+    "description": "Découvrez notre sweat noir en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce sweat offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur noir intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/sweat_noir.jpeg"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "nom": "Sweat  Blanc",
     "prix": 40,
-    "description": "Un Sweat à capuche confortable en coton.",
+    "description": "Découvrez notre sweat blanc en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce sweat offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur blanche intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/sweat_blanc.jpeg"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "nom": "Jeans Bleu",
     "prix": 60,
-    "description": "Un Jeans confortable en coton.",
+    "description": "Découvrez notre jeans bleu en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce jean offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur bleu intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/jeans_bleu.jpeg"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "nom": "Jeans Noir",
     "prix": 60,
-    "description": "Un Jeans confortable en coton.",
+    "description": "Découvrez notre jeans noir en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce jean offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur noir intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/jeans_noir.jpg"
   },
@@ -67,31 +67,31 @@
     "id": 9,
     "nom": "Jeans Gris",
     "prix": 60,
-    "description": "Un Jeans confortable en coton.",
+    "description": "Découvrez notre jeans gris en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce jean offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur grise intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/jeans_gris.jpg"
   },
   {
     "id": 10,
-    "nom": "Veste Noir",
+    "nom": "Manteau Noir",
     "prix": 100,
-    "description": "Une Veste noire confortable en coton.",
+    "description": "Découvrez notre manteau noir en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce manteau offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur noir intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/veste_noir.jpeg"
   },
   {
     "id": 11,
-    "nom": "Veste Bleu ",
+    "nom": "Manteau Bleu ",
     "prix": 100,
-    "description": "Une Veste Bleu marine confortable en coton.",
+    "description": "Découvrez notre manteau bleu marine en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce manteau offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur bleu intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/veste_bleu.jpeg"
   },
   {
     "id": 12,
-    "nom": "Veste Beige",
+    "nom": "Manteau Beige",
     "prix": 100,
-    "description": "Une Veste beige confortable en coton.",
+    "description": "Découvrez notre manteau beige en coton, l'indispensable de votre garde-robe ! Fabriqué à partir de coton de haute qualité, ce manteau offre une douceur exceptionnelle et un confort optimal tout au long de la journée. Sa coupe classique et sa couleur beige intemporelle en font un choix polyvalent qui s'associe parfaitement à tous vos styles, que ce soit pour une tenue décontractée ou un look plus habillé.",
     "quantite": 10,
     "image": "images/veste_beige.jpeg"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "nom": "Casquette Noir",
     "prix": 30,
-    "description": "Une Casquette noire en coton.",
+    "description": "Découvrez notre casquette noire, l'accessoire essentiel pour toutes les saisons ! Conçue à partir de matériaux de haute qualité, cette casquette allie confort et style, offrant une touche moderne à n'importe quelle tenue. Son design classique et sa couleur noire intemporelle en font un choix polyvalent, parfait pour compléter un look décontracté ou sportif. Que ce soit pour une sortie en ville ou une journée au soleil, cette casquette vous accompagnera avec élégance et praticité.",
     "quantite": 10,
     "image": "images/casquette_noir.jpeg"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "nom": "Casquette Beige",
     "prix": 30,
-    "description": "Une Casquette beige en coton.",
+    "description": "Découvrez notre casquette beige, l'accessoire essentiel pour toutes les saisons ! Conçue à partir de matériaux de haute qualité, cette casquette allie confort et style, offrant une touche moderne à n'importe quelle tenue. Son design classique et sa couleur beige intemporelle en font un choix polyvalent, parfait pour compléter un look décontracté ou sportif. Que ce soit pour une sortie en ville ou une journée au soleil, cette casquette vous accompagnera avec élégance et praticité.",
     "quantite": 10,
     "image": "images/casquette_beige.jpeg"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "nom": "Casquette Bleu",
     "prix": 30,
-    "description": "Une Casquette bleu marine en coton.",
+    "description": "Découvrez notre casquette bleu, l'accessoire essentiel pour toutes les saisons ! Conçue à partir de matériaux de haute qualité, cette casquette allie confort et style, offrant une touche moderne à n'importe quelle tenue. Son design classique et sa couleur bleu intemporelle en font un choix polyvalent, parfait pour compléter un look décontracté ou sportif. Que ce soit pour une sortie en ville ou une journée au soleil, cette casquette vous accompagnera avec élégance et praticité.",
     "quantite": 10,
     "image": "images/casquette_bleu.jpeg"
   }
