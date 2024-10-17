@@ -4,52 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Détails du Produit</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="./"><img src="images/logo.png" id="logo"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-5 d-flex justify-content-end">
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Vêtements Femmes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hauts</a></li>
+                            <li><a class="dropdown-item" href="#">Pantalons</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Vêtements Hommes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hauts</a></li>
+                            <li><a class="dropdown-item" href="#">Pantalons</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Accessoires
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Bijoux</a></li>
+                            <li><a class="dropdown-item" href="#">Casquettes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">A propos</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <a href="#" class="nav-link">
+                    <img src="images/panier.png" alt="icone panier" id="panier">
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
 <div class="container">
     <div id="produit-detail" class="row justify-content-center text-center mt-5">
 
     </div>
 </div>
 
-<script>
-    // Récupére l'ID du produit à partir de l'URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const produitId = urlParams.get('id');
-
-    // Fonction pour afficher les détails du produit
-    function afficherDetailProduit(produit) {
-        const produitDetail = document.getElementById('produit-detail');
-        produitDetail.innerHTML = `
-                <div class="col-md-8">
-                    <div class="card">
-                        <img src="${produit.image}" class="card-img-top" alt="${produit.nom}">
-                        <div class="card-body">
-                            <h3 class="card-title">${produit.nom}</h3>
-                            <p class="card-text">${produit.description}</p>
-                            <p class="card-text"><strong>Prix :</strong> ${produit.prix}€</p>
-                            <p class="card-text"><small>Quantité disponible : ${produit.quantite}</small></p>
-                            <button class="btn btn-primary add-to-cart" data-id="${produit.id}">Ajouter au panier</button>
-                        </div>
-                    </div>
-                </div>
-            `;
-    }
-
-
-    fetch('produits.json')
-        .then(response => response.json())
-        .then(data => {
-            const produit = data.find(p => p.id == produitId);
-            if (produit) {
-                afficherDetailProduit(produit);
-            } else {
-                console.error('Produit non trouvé');
-            }
-        })
-        .catch(error => console.error('Erreur lors du chargement des produits:', error));
-</script>
+<script src="detailsProduits.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
