@@ -9,13 +9,13 @@ function afficherDetailProduit(produit) {
     produitDetail.innerHTML = `
         <div class="row">
          
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="img-container">
                      <img src="${produit.image}" class="img-fluid" alt="${produit.nom}">
                 </div>
             </div>
            
-            <div class="col-md-6 d-flex flex-column justify-content-start text-start" style="padding-left: 30px;"> 
+            <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-start text-start" style="padding-left: 30px;"> 
                 <div class="card-body ms-5">
                     <h3 class="card-title  mb-4 mt-5 pt-5">${produit.nom}</h3>
                     <p class="card-text mb-4 descriptionProduits">${produit.description}</p>
