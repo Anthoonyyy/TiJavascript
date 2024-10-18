@@ -55,7 +55,15 @@ function afficherPanier() {
 }
 
 function supprimerDuPanier(produitId) {
-    panier = panier.filter(item => item.id != produitId);  // Supprime l'article du panier en filtrant par son ID
+    const produitExistant = panier.find(item => item.id == produitId); // Recherche si le produit est déjà dans le panier
+
+    if (produitExistant) {
+        if (produitExistant.quantite > 1) {
+            produitExistant.quantite--; // Décrémente la quantité si elle est supérieure à 1
+        } else {
+            panier = panier.filter(item => item.id != produitId); // Sinon, on supprime l'article du panier
+        }
+    }
     mettreAJourCompteurPanier();
     afficherPanier();
     sauvegarderPanier();
